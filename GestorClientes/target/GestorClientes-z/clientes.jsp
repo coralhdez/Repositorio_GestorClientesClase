@@ -13,7 +13,9 @@
     </head>
     <body>
         
-    <jsp ></jsp> 
+    <jsp include page="WEB-INF/paginas/comunes/header.jsp" ></jsp> 
+    
+    <jsp include page="WEB-INF/paginas/comunes/botonesNavegacion.jsp" ></jsp> 
         <ul>
             <c:forEach var="cliente" items="${clientes}">
                 <li>
